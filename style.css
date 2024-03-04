@@ -1,0 +1,140 @@
+#menu-movil{
+    display: none;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+*{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-snap-type: y mandatory;
+    scroll-padding: 50px; 
+}
+#landing{
+    background-image: url("./img/tropicana2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+.text-title{
+    font-size: 16rem;
+}
+.shadow-white{
+    text-shadow: 4px 4px 6px white;
+}
+.shadow-blue{
+    text-shadow: 4px 4px 6px rgb(131, 188, 212);
+}
+.bg-autolux{
+    background-color: #15156d;
+}
+.text-blue-tropicana{
+    color: #15156d;
+}
+.text-brown-tropicana{
+    color: #c89f67;
+}
+.hover-brown:hover{
+    color: #c89f67;
+}
+.bg-brown-tropicana{
+    background-color: #c89f67;
+}
+.bg-blue-tropicana{
+    background-color: #15156d;
+}
+.button{
+    background-color: #15156d;
+    color: #c89f67;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.2s;
+}
+.button:hover{
+    background-color: white;
+    color: #15156d;
+}
+.button-big{
+    background-color: #15156d;  
+    color: #c89f67;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.2s;
+}
+.button-big:hover{
+    background-color: white;
+    color: #15156d;
+}
+.button-big-brown{
+    background-color: #c89f67;  
+    color: #15156d;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.2s;
+}
+.button-big-brown:hover{
+    background-color: white;
+    color: #15156d;
+}
+@font-face {
+    font-family: tropicana;
+    src: url(./fonts/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: autolux-bold;
+    src: url(./fonts/Midlandluxury\ Bold.otf);
+}
+.font-tropicana{
+    font-family: tropicana;
+}
+.font-autolux-bold{
+    font-family: autolux-bold;
+}
+.text-nav{
+    font-size: 1.3rem;
+}
+.bg-card-galardon{
+    background: #15156d;
+    background: linear-gradient(54deg, #1c1c2f 35%, #15156d);
+}
+.text-shadow-black{
+    text-shadow: 1px 1px 2px black;
+}
+.hover-contact{
+    transition: 1s;
+}
+.hover-contact:hover{
+    width: 70%;
+}
+.text-xxs{
+    font-size: 0.7rem;
+}
+.text-xxxs{
+    font-size: 0.7rem !important;
+}
+.text-tiny{
+    font-size: 0.5rem !important;
+}
+.language{
+    width: 1%;
+    height: 1%;
+}
+.ms-30{
+    margin-inline-start: 8rem;
+}
+
+@media (max-width: 850px) {
+    .text-nav{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .text-title{
+        font-size: 7rem !important;
+    }
+  }
